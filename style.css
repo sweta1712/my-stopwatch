@@ -1,0 +1,86 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.stopwatch {
+  margin: 50px auto;
+  font-size: 20px;
+ width: 50%;
+ margin: auto;
+}
+#display{
+  font-size: 13vmax;
+}
+
+
+.controls button {
+  font-size: 18px;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.lap-list {
+  text-align: left;
+  margin-top: 20px;
+  padding-left: 0;
+  list-style: none;
+}
+#startStop{
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  transition-duration: 0.29s;
+  
+  
+  
+
+  
+}
+#startStop:hover{
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1), 0 6px 10px 0 rgba(0,0,0.2,0.05);
+}
+#reset{
+  background-color: hsl(273, 100%, 36%);
+  color: white;
+  border: none;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  transition-duration: 0.29s;
+
+}
+#reset:hover{
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1), 0 6px 10px 0 rgba(0,0,0.2,0.05);
+
+}
+#lap{
+  background-color: hsl(322, 95%, 25%);
+  color: white;
+  border: none;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  transition-duration: 0.29s;
+
+}
+#lap:hover{
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1), 0 6px 10px 0 rgba(0,0,0.2,0.05);
+
+}
+
